@@ -114,3 +114,28 @@ header button{
     line-height: 1.5;
     max-width: 100%;
 }
+
+
+@media screen and (max-width:1024px){
+   .auth__container{
+      width: 40%;
+      margin: 0 auto;
+   }
+   .form-control{
+      width: 100%;
+   }
+   
+}
+
+@media screen and (max-width:768px){
+   .auth__container{
+      width: 60%;
+      margin: 35px auto;
+   }
+}
+@media screen and (max-width:465px){
+   .auth__container{
+      width: 80%;
+      margin: 35px auto;
+   }
+}

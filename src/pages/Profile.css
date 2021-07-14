@@ -115,3 +115,51 @@
    display: inline-block;
    line-height: 1.5;
 }
+
+
+@media screen and (max-width:1024px){
+   .profile__container{
+      width: 40%;
+      margin: 35px auto;
+   }
+   .form-control-btn{
+      width: 100%;
+   }
+   .submit-btn-large{
+      width: 100%;
+   }
+   .form-control_small{
+      width: 60%;
+   }
+}
+
+@media screen and (max-width:768px){
+   .profile__container{
+      width: 60%;
+      margin: 35px auto;
+   }
+   .form-control-btn{
+      width: 100%;
+   }
+   .submit-btn-large{
+      width: 100%;
+   }
+   .form-control_small{
+      width: 60%;
+   }
+}
+@media screen and (max-width:465px){
+   .profile__container{
+      width: 90%;
+      margin: 35px auto;
+   }
+   .form-control-btn{
+      width: 100%;
+   }
+   .submit-btn-large{
+      width: 100%;
+   }
+   .form-control_small{
+      width: 60%;
+   }
+}
