@@ -15,7 +15,9 @@ function Profile(props) {
       if(!token){
          return history.push("/");
       }
-   },[])
+   },
+   // eslint-disable-next-line
+   [])
    
    const [errors,setErrors] = React.useState(null);
    const [success,setSuccess] = React.useState(null)
@@ -57,6 +59,7 @@ function Profile(props) {
     }
 
     console.log(success);
+    // eslint-disable-next-line
    return (
       <div className="profile">
           <header>
@@ -65,7 +68,8 @@ function Profile(props) {
          </header>
          <div className="profile__container">
             {success && <div className="success__container">
-               <a href="#" onClick={closeSuccess}>x</a>
+               
+               <button onClick={closeSuccess}>x</button>
                <span className="success__message">
                   {success}
                </span>

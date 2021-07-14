@@ -1,4 +1,4 @@
-import { loadReCaptcha } from 'react-recaptcha-google'
+
 import './App.css';
 import { connect } from 'react-redux';
 import Home from './pages/Home';
@@ -37,7 +37,9 @@ function App(props) {
         props.setUser(user.user);
       })
     }
-  },[])
+  },
+  // eslint-disable-next-line
+  [])
 
 
   return (
