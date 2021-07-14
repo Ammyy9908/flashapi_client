@@ -121,7 +121,7 @@ function Auth({type}) {
              
                {type==="reg" && <ReCAPTCHA
                style={{marginBottom:"10px",marginTop:"10px"}}
-    sitekey="6Lcm448bAAAAAD5ZyUsSamFlCfC2ILz6vm3lypce"
+    sitekey="6LdbwZUbAAAAAPfhiDw8pYR5PqA3lLLrclyCQJeR"
     onChange={onChange}
   />
  }
