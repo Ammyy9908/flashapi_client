@@ -22,8 +22,8 @@ const moveToLogin = ()=>{
             <a href="/">Documentation</a>
             {/* <a href="/">Pricing</a> */}
             <div className={styles.header__buttons}>
-               {!props.user && <><button onClick={moveToLogin}>Login</button>
-               <button onClick={moveToReg}>Get API Key</button></>}
+               {!props.user && <><button onClick={moveToLogin} className={styles.non_auth_btn1}>Login</button>
+               <button onClick={moveToReg} className={styles.non_auth_btn2}>Get API Key</button></>}
                {props.user && <button onClick={moveToProfile} className={styles.auth_btn}>{props.user.email}</button>}
             </div>
          </div>

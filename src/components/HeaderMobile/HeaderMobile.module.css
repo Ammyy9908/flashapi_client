@@ -8,6 +8,19 @@
    opacity: 1;
    display:block;
 }
+.non_auth_btn1{
+   border: 2px solid #00bdad;
+   color: #00bdad;
+   background-color: transparent;
+   border-radius: 5px;
+}
+.non_auth_btn2{
+   border: 0;
+   width: 120px;
+   color: #fff;
+   background-color: #00bdad;
+   border-radius: 5px;
+}
 .auth_btn{
    border: 0;
    width: auto;
