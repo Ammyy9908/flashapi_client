@@ -8,6 +8,13 @@
    opacity: 1;
    display:block;
 }
+.auth_btn{
+   border: 0;
+   width: auto;
+   color: #fff;
+   background-color: #00bdad !important;
+   border-radius: 5px;
+ }
 .header__mobile__wrapper{
    width: 95%;
    margin: 0 auto;

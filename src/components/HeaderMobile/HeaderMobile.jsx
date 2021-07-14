@@ -24,7 +24,7 @@ const moveToLogin = ()=>{
             <div className={styles.header__buttons}>
                {!props.user && <><button onClick={moveToLogin}>Login</button>
                <button onClick={moveToReg}>Get API Key</button></>}
-               {props.user && <button onClick={moveToProfile}>{props.user.email}</button>}
+               {props.user && <button onClick={moveToProfile} className={styles.auth_btn}>{props.user.email}</button>}
             </div>
          </div>
       </div>
