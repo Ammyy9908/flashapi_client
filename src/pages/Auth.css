@@ -1,0 +1,116 @@
+.auth{
+   width: 100%;
+   height: 100vh;
+}
+.auth a{
+   color: #00bdad;
+   text-decoration: none;
+}
+
+header{
+   width: 100%;
+   height: 55px;
+   display: flex;
+   align-items: center;
+}
+header button{
+   margin-left: 15px;
+   height:48px;
+   background-color:transparent;
+   border:0;
+   outline:0;
+   font-size: 20px;
+   cursor: pointer;
+   color: #00bdad;
+   display:flex;
+   align-items: center;
+   gap:10px;
+}
+
+.auth__container{
+   width: 480px;
+   margin: 35px auto;
+}
+.auth__container h1{
+   font-size: 2.25rem;
+   font-weight: 300;
+}
+.validation__container{
+   padding: 1.5rem;
+   background-color:#f2dede;
+   color: rgb(172, 39, 39);
+   margin-bottom: 10px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 15px;
+}
+.form-group{
+   margin-bottom: 15px;
+}
+.form-group label{
+   display: inline-block;
+    line-height: 1.5;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.form-control{
+   display: block;
+    line-height: 1.5;
+    color: #555;
+    width: 100%;
+    height:35px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    padding-left: 10px;
+    outline:0;
+    
+}
+
+.form-control:focus{
+   border:2px solid rgb(2, 182, 167);
+   border-radius: 4px;
+}
+.submit-btn{
+   margin-top:10px;
+   padding:11px;
+   width: 120px;
+   background-color:rgb(2, 182, 167);
+   color: #fff;
+   border: 0;
+   opacity: .4;
+   cursor:not-allowed;
+   border-radius: 4px;
+}
+.btn__enable{
+   opacity: 1;
+   cursor: pointer;
+   margin-top:10px;
+   padding:11px;
+   width: 120px;
+   background-color:rgb(2, 182, 167);
+   color: #fff;
+   border: 0;
+  
+   border-radius: 4px;
+}
+.rc-anchor-error-msg{
+   color: #00bdad !important;
+}
+
+
+.radio label{
+   min-height: 20px;
+   
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.5;
+    max-width: 100%;
+}
