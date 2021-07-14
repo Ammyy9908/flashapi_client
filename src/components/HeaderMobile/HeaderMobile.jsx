@@ -8,6 +8,13 @@ function HeaderMobile(props) {
    const moveToProfile = ()=>{
       history.push('/account');
    }
+
+   const moveToReg = ()=>{
+      history.push('/auth/reg');
+}
+const moveToLogin = ()=>{
+   history.push('/auth/login');
+}
    return (
       <div className={props.isNav?styles.headerMobile__enable:styles.headerMobile}>
          <div className={styles.header__mobile__wrapper}>
@@ -15,8 +22,8 @@ function HeaderMobile(props) {
             <a href="/">Documentation</a>
             {/* <a href="/">Pricing</a> */}
             <div className={styles.header__buttons}>
-               {!props.user && <><button>Login</button>
-               <button>Get API Key</button></>}
+               {!props.user && <><button onClick={moveToLogin}>Login</button>
+               <button onClick={moveToReg}>Get API Key</button></>}
                {props.user && <button onClick={moveToProfile}>{props.user.email}</button>}
             </div>
          </div>
