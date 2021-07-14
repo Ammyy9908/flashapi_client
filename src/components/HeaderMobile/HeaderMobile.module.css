@@ -24,7 +24,7 @@
 .auth_btn{
    border: 0;
    width: auto;
-   color: #fff;
+   color: #fff !important;
    background-color: #00bdad !important;
    border-radius: 5px;
  }
@@ -52,13 +52,14 @@
 }
 .header__buttons button{
    height:48px;
-   width: 85%;
+   
 }
 .header__buttons button:nth-child(1){
    border: 2px solid #00bdad;
    color: #00bdad;
    background-color: transparent;
    border-radius: 5px;
+   
 }
 .header__buttons button:nth-child(2){
    border: 0;
